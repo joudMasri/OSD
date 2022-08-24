@@ -252,6 +252,7 @@ section{
         align-items: center;
         justify-content: center;
         width: 100%;
+        background:gray;
     }
     .services .content{
         margin: 0;
@@ -278,8 +279,15 @@ section{
     }
 
     .question-container .question .title{
-        width: 70%;
-        
+        width: 100%;
+        font-size: 18pt;
+    }
+    .question-container .question .check-pioneers a{
+        width: 80%;
+    }
+
+    .check-pioneers a span{
+    font-size: 10px !important;
     }
 
     .question-container .answers{
@@ -292,9 +300,20 @@ section{
         text-align: left;
         margin-bottom: 3vmin;
         width: 100%;
+
+    }
+
+    .question-container .answers .answer .icon{
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
     }
 
     .question-container .answers .answer .text{
         line-height: 1.5;
+        font-size: 10px;
+        font-size: 15px !important;
+
     }
+    
 }

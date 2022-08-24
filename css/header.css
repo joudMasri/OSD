@@ -120,7 +120,7 @@ header{
 
 .navbar-mobile {
     width: 100%;
-    padding-right: 5vmin;
+    /* padding-right: 5vmin; */
     display: none;
     flex-direction: row;
     align-items: center;
