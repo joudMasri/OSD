@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.936" x2="-0.569" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03dee7"/>
+      <stop offset="0.597" stop-color="#126cff"/>
+      <stop offset="1" stop-color="#fefefe"/>
+    </linearGradient>
+  </defs>
+  <g id="Services_Card9Icon_DefaultState" transform="translate(-6103 -980)">
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="15.5" cy="15.5" r="15.5" transform="translate(6107 984)" fill="url(#linear-gradient)"/>
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(6103 980)" fill="none" stroke="#03dee7" stroke-width="1" stroke-dasharray="4">
+      <circle cx="19.5" cy="19.5" r="19.5" stroke="none"/>
+      <circle cx="19.5" cy="19.5" r="19" fill="none"/>
+    </g>
+    <path id="Icon_awesome-check" data-name="Icon awesome-check" d="M4.415,14.081.19,9.856a.65.65,0,0,1,0-.919l.919-.919a.65.65,0,0,1,.919,0l2.846,2.846,6.1-6.1a.65.65,0,0,1,.919,0l.919.919a.65.65,0,0,1,0,.919L5.335,14.081A.65.65,0,0,1,4.415,14.081Z" transform="translate(6116 987.076)" fill="#f7f8ff"/>
+    <path id="Icon_awesome-check-2" data-name="Icon awesome-check" d="M5.786,17.031.249,11.494a.852.852,0,0,1,0-1.2l1.2-1.2a.852.852,0,0,1,1.2,0l3.729,3.729,7.988-7.988a.852.852,0,0,1,1.2,0l1.2,1.2a.852.852,0,0,1,0,1.2L6.99,17.031A.852.852,0,0,1,5.786,17.031Z" transform="translate(6115 990.067)" fill="#f7f8ff"/>
+  </g>
+</svg>

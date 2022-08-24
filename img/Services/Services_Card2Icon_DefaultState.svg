@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.028" height="43.775" viewBox="0 0 50.028 43.775">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.936" x2="-0.569" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03dee7"/>
+      <stop offset="0.597" stop-color="#126cff"/>
+      <stop offset="1" stop-color="#fefefe"/>
+    </linearGradient>
+  </defs>
+  <g id="Services_Card2Icon_DefaultState" transform="translate(1 -2.25)">
+    <path id="Path_55" data-name="Path 55" d="M42.71,15.324A14.656,14.656,0,0,0,16.083,8.572a6.926,6.926,0,0,0-2.628-.518,7.237,7.237,0,0,0-6.977,7.172A9.545,9.545,0,0,0,0,24.284a9.189,9.189,0,0,0,8.882,9.234H23.744V19.652l-4.68,4.612a1.271,1.271,0,0,1-1.788-1.808l6.84-6.742h0a1.243,1.243,0,0,1,.4-.264,1.212,1.212,0,0,1,.489-.1,1.274,1.274,0,0,1,.889.362l6.84,6.742a1.271,1.271,0,0,1-1.788,1.808l-4.661-4.612V33.518H41.146A9.2,9.2,0,0,0,42.71,15.324Z" transform="translate(-1)" fill="url(#linear-gradient)"/>
+    <path id="Path_56" data-name="Path 56" d="M17.086,35.987a1.27,1.27,0,0,0,2.54,0V24.75h-2.54Z" transform="translate(5.658 8.768)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

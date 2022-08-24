@@ -1,0 +1,139 @@
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #fff;
+    padding-top: 2vmin;
+    padding-bottom: 5vmin;
+    width: 100%;
+    font-size: 2vmin;
+    padding-top: 12vmin;
+}
+
+.contact-container .contact-title{
+    margin-bottom: 6vmin;
+    font-size: 5vmin;
+}
+
+.contact-container .inputs-information{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact-container .inputs-information .personnel-information{
+    width: 90vmin;
+    height: 30vmin;
+    margin-right: 7.5px;
+}
+
+.contact-container .inputs-information .personnel-information input{
+    width: 100%;
+    height: 8vmin;
+    border: none;
+    border-radius: 4vmin;
+    padding-left: 2vmin;
+    color: #0C022778;
+    margin-bottom: 3vmin;
+    background-color: #EBEFFE;
+}
+
+.contact-container .inputs-information .personnel-information .countries{
+    width: 100%;
+    height: 8vmin;
+    border: none;
+    border-radius: 4vmin;
+    padding: 2vmin;
+    background-color: #EBEFFE;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #0C022778;
+}
+
+
+.contact-container .inputs-information .helping-question{
+    height: 100%;
+    width:100vmin ;
+    display: flex;
+    flex-direction: column;
+}   
+
+.contact-container .inputs-information .helping-question .help{
+    width: 100%;
+    height: 100%;
+    background: #F7F8FF;
+    border: none;
+    border-radius: 4vmin;
+    padding-bottom: 40vmin;
+    padding-left: 3vmin;
+    resize: vertical;
+}
+
+
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 3vmin;
+}
+
+.buttons button{
+    border-radius: 2vmin;
+    border: none;
+    text-align: center;
+    padding:2.5vmin 8vmin ;
+    margin-left: 3vmin;
+    cursor: pointer;
+    border: 1px solid #0162FF;
+}
+
+.buttons .submit{
+    background: #0162FF;
+    color: #F7F8FF;
+}
+
+.buttons .submit:hover{
+    background: #F7F8FF;
+    border: 1px solid #0162FF;
+    color: #0162FF;
+}
+
+.buttons .cancel{
+    background: #F7F8FF;
+    color: #0162FF;
+    border: 1px solid #0162FF;
+}
+
+.buttons .cancel:hover{
+    color: #F7F8FF;
+    background: #080320;
+    border-color: #080320;
+}
+
+@media (max-width: 700px){
+    .contact-container{
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-container .inputs-information .personnel-information{
+        width: 100%;
+        margin-left: 3vmin;
+        margin-bottom: 14vmin;
+    }
+    .contact-container .inputs-information .helping-question{
+        width: 95%;
+        margin-left: 2vmin;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttons{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="36" viewBox="0 0 38 36">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.936" x2="-0.569" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03dee7"/>
+      <stop offset="0.597" stop-color="#126cff"/>
+      <stop offset="1" stop-color="#fefefe"/>
+    </linearGradient>
+  </defs>
+  <path id="Services_Card4Icon_DefaultState" d="M36.045,3H4.955A3.54,3.54,0,0,0,1.5,6.6V28.2a3.54,3.54,0,0,0,3.455,3.6H17.045v3.6H13.591V39H27.409V35.4H23.955V31.8H36.045A3.54,3.54,0,0,0,39.5,28.2V6.6A3.54,3.54,0,0,0,36.045,3Zm0,25.2H4.955V6.6H36.045Z" transform="translate(-1.5 -3)" fill="url(#linear-gradient)"/>
+</svg>

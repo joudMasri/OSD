@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102.914" height="102.914" viewBox="0 0 102.914 102.914">
+  <g id="Tech_NETCore_Web" transform="translate(0 -37.224)">
+    <circle id="Ellipse_32" data-name="Ellipse 32" cx="51.457" cy="51.457" r="51.457" transform="translate(0 37.224)" fill="#cccfdb"/>
+    <text id="Core" transform="translate(30.655 110.155)" fill="#fff" font-size="17" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Core</tspan></text>
+    <text id="_.NET" data-name=".NET" transform="translate(15.328 86.931)" fill="#fff" font-size="31" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">.NET</tspan></text>
+  </g>
+</svg>

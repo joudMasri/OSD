@@ -1,0 +1,150 @@
+p{
+    font-size: 2.5vmin;
+}
+
+.footer-container{
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    background: url(../img/Footer_Background_Web.png);
+    background-size: cover;
+    color: #F7F8FF;
+    position: relative;
+    height: 45vmin;
+    font-size: 3.5vmin;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-container .links{
+    width: 100%;
+    display: flex;
+    margin: 0 8rem;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; */
+}
+.footer-container .links .row{
+    width: 100%;
+}
+.footer-container::-webkit-scrollbar{
+    display: none;
+}
+
+.footer-container a{
+    text-decoration: none;
+    color:#F7F8FF;
+    font-size: 2.5vmin;
+}
+
+
+
+.footer-container .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 2vmin;
+}
+
+.footer-container .row .title{
+    margin-bottom: 2vmin;
+    position: relative;
+}
+
+.footer-container .row::-webkit-scrollbar{
+    display: none;
+}
+
+.footer-container .row .title .underline{
+    width: 16vmin;
+    height: .5vmin;
+    background:#F7F8FF;
+    border-radius: 3px;
+    position: absolute;
+    top: 4vmin;
+    left: 0;
+    overflow: hidden;
+}
+
+.footer-container .row .title .underline span{
+    width: 3.5vmin ;
+    height: 100%;
+    background: #03DEE7;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
+.footer-container .row .icon{
+    margin-bottom: .75vmin;
+    font-size: 2.5vmin;
+    cursor: pointer;
+}
+
+.footer-container .row .icon:hover{
+    color: #03DEE7;
+}
+
+.footer-container .row .icon:hover >a{
+    color: #03DEE7;
+}
+
+.footer-container .row .icon .fa-solid{
+    width: 2vmin;
+}
+
+i{
+    margin-right: 1.5vmin;
+}
+
+.footer-container .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #EBEFFE;
+}
+
+.footer-container .underlin{
+    height: .5vmin;
+    background:#F7F8FF;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 7vmin;
+    width: 50%;
+}
+
+
+    @media (max-width: 1000px){
+    .footer-container{
+        justify-content: space-around;
+        padding-left: 2vmin;
+        padding-top: 5vmin;
+        padding-bottom: 10vmin;
+    }
+    .footer-container .links{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .footer-container .row{
+        width: 100%;
+        height: 70%;
+    }
+    
+}
