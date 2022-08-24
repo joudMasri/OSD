@@ -233,9 +233,9 @@ section{
         height: 250px;
         justify-content: space-around;
     }
-    .question-container .answers .answer{
+    /* .question-container .answers .answer{
         padding-left: 12%;
-    }
+    } */
 }
 
 
@@ -253,7 +253,7 @@ section{
         height: 159px;
     }
 
-
+/* 
     .question-container{
         padding: 0;
         margin: 0;
@@ -316,6 +316,6 @@ section{
         font-size: 10px;
         font-size: 15px !important;
 
-    }
+    } */
     
 }

@@ -127,6 +127,7 @@ header{
     justify-content: space-between;
     background-color: black;
     height: 15vmin;
+    width: 100%;
     color: #fff;
     /* position: fixed; */
     left: 0;
@@ -212,6 +213,8 @@ header{
     
     .navbar-mobile{
         display: flex;
+        left: 0;
+        right: 0;
     }
 
 }
