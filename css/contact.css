@@ -125,7 +125,7 @@
     }
     .contact-container .inputs-information .personnel-information{
         width: 100%;
-        /* margin-left: 3vmin; */
+        margin-left: 3vmin;
         margin-bottom: 2vmin;
         display: flex;
         align-items: center;
@@ -133,14 +133,14 @@
     }
     .contact-container .inputs-information .personnel-information .first-col{
         width: 50%;
-        margin-right: 2px;
+        margin-right: 3px;
     }
     .contact-container .inputs-information .personnel-information .second-col{
         width: 50%;
     }
     .contact-container .inputs-information .helping-question{
         width: 100%;
-        /* margin-left: 2vmin; */
+        margin-left: 2vmin;
         align-items: center;
         justify-content: center;
     }
