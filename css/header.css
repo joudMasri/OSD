@@ -119,7 +119,7 @@ header{
 /* Mobile Navbar */
 
 .navbar-mobile {
-    width: 80%;
+    width: 78%;
     /* padding-right: 5vmin; */
     display: none;
     flex-direction: row;

@@ -15,13 +15,13 @@ window.onscroll =()=>{
         // navLogo.style.display = 'block'
         // navbar.style.position = 'absolute'
         // btnScrollToTop.style.alignItems = 'center';
-        Navmobile.style.width ="100%"
+        // Navmobile.style.width ="100%"
         navbar.style.position = 'fixed';
     }
     else{
         btnScrollToTop.style.display = 'none';
         navbar.style.position = 'absolute'
-        Navmobile.style.width ="80%"
+        // Navmobile.style.width ="80%"
         // navLogo.style.display = 'none'
     } 
 }
