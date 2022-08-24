@@ -10,19 +10,15 @@ const navbar = document.querySelector('.navbar')
 const btnScrollToTop = document.getElementById("btnScrollToTop");
 const Navmobile = document.querySelector(".navbar-mobile ");
 window.onscroll =()=>{
-    if(window.pageYOffset >520){
+    if(window.pageYOffset >470){
         btnScrollToTop.style.display ='flex';
-        // navLogo.style.display = 'block'
-        // navbar.style.position = 'absolute'
-        // btnScrollToTop.style.alignItems = 'center';
-        // Navmobile.style.width ="100%"
+        Navmobile.style.position = 'fixed'
         navbar.style.position = 'fixed';
     }
     else{
         btnScrollToTop.style.display = 'none';
         navbar.style.position = 'absolute'
-        // Navmobile.style.width ="80%"
-        // navLogo.style.display = 'none'
+        mobileNav.style.position = 'absolute'
     } 
 }
 

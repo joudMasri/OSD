@@ -73,7 +73,7 @@ header .ctn:hover{
 
 header{
     /* width: 100vw; */
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url(../img/1.webp);
     background-position: bottom;
@@ -128,11 +128,10 @@ header{
     background-color: black;
     height: 15vmin;
     color: #fff;
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     right: 0;
     z-index: 1000;
-    overflow: hidden;
 }
 
 #mobile-menu{
