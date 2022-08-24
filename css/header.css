@@ -119,7 +119,6 @@ header{
 /* Mobile Navbar */
 
 .navbar-mobile {
-    width: 78%;
     /* padding-right: 5vmin; */
     display: none;
     flex-direction: row;
@@ -129,6 +128,8 @@ header{
     height: 15vmin;
     color: #fff;
     position: fixed;
+    left: 0;
+    right: 0;
     z-index: 1000;
     overflow: hidden;
 }
