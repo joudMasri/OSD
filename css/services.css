@@ -249,8 +249,8 @@ section{
 
         
     }
-    .service{
-        width: 90%;
+    .services .content .service{
+        width: 100%;
         height: 159px;
     }
 
