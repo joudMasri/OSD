@@ -252,10 +252,11 @@ p{
     }
     .row .left-col h1{
       padding-top: 10rem;
+      font-size: 22px;
     }
-    .left-col p{
+    .about .row .left-col p{
       width: 90%;
-      font-size:14px ;
+      font-size:10px ;
     }
 
     .row .right-col{
