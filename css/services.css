@@ -242,18 +242,6 @@ section{
 
 @media (max-width: 1000px){
 
-    
-
-    .question-container{
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        padding-top: 50px;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        background:gray;
-    }
     .services .content{
         margin: 0;
         width: 100%;
@@ -266,6 +254,21 @@ section{
         height: 159px;
     }
 
+
+    .question-container{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        padding-top: 50px;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background:gray;
+    }
+    .question-container .question{
+        margin-bottom: 1rem;
+    }
+    
     .question-container{
         width: 100%;
         align-items: center;

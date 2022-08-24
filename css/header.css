@@ -135,6 +135,7 @@ header{
 #mobile-menu{
     cursor: pointer;
     font-size: 25px;
+    margin-right: 10rem;
 }
 
 #mobile-menu:hover{
