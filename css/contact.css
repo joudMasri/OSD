@@ -123,6 +123,9 @@
         justify-content: center;
         padding-top: 0;
     }
+    .contact-container .contact-title{
+        font-size: 30px;
+    }
     .contact-container .inputs-information .personnel-information{
         width: 100%;
         margin-left: 3vmin;
