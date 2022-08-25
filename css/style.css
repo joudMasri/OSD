@@ -376,6 +376,9 @@ p{
   margin-top: 3vmin;
 }
 
+.empty-technologie{
+  display: none;
+}
 
 
 /* End 'We Stand For' section */

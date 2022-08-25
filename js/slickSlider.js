@@ -31,6 +31,7 @@
 //     ]
 //   });
 
+
 if($(document).width()>700){
   $('.slider').slick({
     slidesToShow: 4,
@@ -44,7 +45,7 @@ if($(document).width()>700){
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1500,
-  })
+  });
 }
 
 // if($(document).width()<700){

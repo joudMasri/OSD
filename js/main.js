@@ -47,3 +47,9 @@ x.addEventListener('click', ()=>{
     mobileMenu.style.display = 'flex';
     logo.style.display ='block'
 });
+
+
+const emptyTech = document.querySelector(".empty-technologie");
+if($(document).width()>700){
+    emptyTech.style.display = "block";
+}
