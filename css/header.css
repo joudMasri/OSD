@@ -122,13 +122,14 @@ header{
 .navbar-mobile {
     /* padding-right: 5vmin; */
     display: none;
-    clear: both;
+    /* clear: both; */
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: black;
     height: 15vmin;
-    width: 100%;
+    /* width: 100%; */
+    width: inherit;
     max-width: inherit;
     color: #fff;
     /* position: fixed; */
