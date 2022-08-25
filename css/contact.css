@@ -133,6 +133,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 11px;
     }
     .contact-container .inputs-information .personnel-information .first-col{
         width: 50%;
@@ -146,6 +147,7 @@
         margin-left: 2vmin;
         align-items: center;
         justify-content: center;
+        font-size: 11px;
     }
     .buttons{
         justify-content: center;
