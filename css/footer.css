@@ -56,6 +56,7 @@ p{
 .footer-container .row .title{
     margin-bottom: 2vmin;
     position: relative;
+    font-size: 4vmin;
 }
 
 .footer-container .row::-webkit-scrollbar{
@@ -68,7 +69,7 @@ p{
     background:#F7F8FF;
     border-radius: 3px;
     position: absolute;
-    top: 4vmin;
+    top: 4.5vmin;
     left: 0;
     overflow: hidden;
 }
@@ -95,7 +96,7 @@ p{
 
 .footer-container .row .icon{
     margin-bottom: .75vmin;
-    font-size: 2.5vmin;
+    font-size: 3vmin;
     cursor: pointer;
 }
 
@@ -141,6 +142,7 @@ i{
     .footer-container .links{
         flex-wrap: wrap;
         margin: 0;
+        font-size: 3vmin;
     }
     .footer-container .row{
         width: 100%;
