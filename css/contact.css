@@ -133,7 +133,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 11px;
+        font-size: 14px;
+    }
+    .contact-container .inputs-information .personnel-information input{
+        height: 30px;
+    }
+    .contact-container .inputs-information .personnel-information .countries{
+        height: 30px;
+        font-size: 14px;
     }
     .contact-container .inputs-information .personnel-information .first-col{
         width: 50%;
@@ -147,7 +154,7 @@
         margin-left: 2vmin;
         align-items: center;
         justify-content: center;
-        font-size: 11px;
+        font-size: 14px;
     }
     .buttons{
         justify-content: center;
