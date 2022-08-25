@@ -70,6 +70,14 @@ header .ctn:hover{
 .ctn:hover >a{
     color:white;
 }
+.contact-btn{
+    background-color: aqua !important;
+    color: #fff;
+    display: none;
+}
+.contact-btn:hover{
+    background-color: transparent !important;
+}
 
 header{
     /* width: 100vw; */

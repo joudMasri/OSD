@@ -48,8 +48,9 @@ x.addEventListener('click', ()=>{
     logo.style.display ='block'
 });
 
-
+const contactBtn = document.querySelector(".contact-btn");
 const emptyTech = document.querySelector(".empty-technologie");
 if($(document).width()<700){
     emptyTech.style.display = "block";
+    contactBtn.style.display= 'flex'
 }
