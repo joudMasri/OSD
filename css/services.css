@@ -245,7 +245,9 @@ section{
 
 
 @media (max-width: 1000px){
-
+    .container .title h1{
+        font-size: 30px;
+    }
     .services .content{
         margin: 0;
         width: 100%;
@@ -272,9 +274,8 @@ section{
         margin-top: 50px;
     }
     .question-container .question .title{
-        font-size: 20px;
+        font-size: 30px;
         margin-bottom: 5px;
-        font-weight: bold;
     }
     .question-container .question .check-pioneers a span{
         width: 100%;
