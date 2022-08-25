@@ -38,9 +38,7 @@ if($(document).width()>700){
     autoplay: true,
     autoplaySpeed: 1500,
   });
-}
-
-if($(document).width()<700){
+} else{
   $('.slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -48,3 +46,7 @@ if($(document).width()<700){
     autoplaySpeed: 1500,
   })
 }
+
+// if($(document).width()<700){
+ 
+// }

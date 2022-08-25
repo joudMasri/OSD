@@ -256,6 +256,7 @@ p{
     .about .row .left-col p{
       width: 90%;
       font-size:14px ;
+      text-align: center;
     }
 
     .row .right-col{
