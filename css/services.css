@@ -19,6 +19,7 @@ section{
     background-size: cover;
     margin: auto;
     padding-top: 11.7vmin;
+    overflow: hidden;
 }
 
 .services-wrapper{
@@ -30,6 +31,7 @@ section{
     grid-gap: 0;
     row-gap: 5vmin;
     margin-bottom: 3vmin;
+    overflow: hidden;
 }
 
 .container .title{
@@ -130,6 +132,8 @@ section{
 }
 
 
+
+
 .question-container{
     padding-bottom: 5rem;
     padding-top: 2.5rem;
@@ -218,13 +222,13 @@ section{
 @media (max-width:1000px){
     .services-wrapper{
         grid-template-columns: repeat(auto-fit, minmax(350px,auto));
-        
     }
     .service{
         width: 290px;
         height: 250px;
         margin: auto;
         padding: 2rem 2rem;
+        border-radius: 10vmin;
     }
 }
 @media (max-width:600px){
@@ -232,6 +236,7 @@ section{
         width: 80%;
         height: 250px;
         justify-content: space-around;
+        border-radius: 10vmin;
     }
     /* .question-container .answers .answer{
         padding-left: 12%;
@@ -262,15 +267,17 @@ section{
     .question-container .question{
         align-items: center;
         justify-content: center;
-        width: 90%;
+        width: 100%;
         margin-bottom: 0;
         margin-top: 50px;
     }
     .question-container .question .title{
         font-size: 20px;
+        margin-bottom: 5px;
+        font-weight: bold;
     }
     .question-container .question .check-pioneers a span{
-        width: 80%;
+        width: 100%;
         font-size: 10px;
     }
 
