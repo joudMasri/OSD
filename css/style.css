@@ -381,5 +381,11 @@ p{
   display: none;
 }
 
+@media (max-width: 1200px){
+  .empty-technologie{
+    display: inline-block;
+  }
+}
+
 
 /* End 'We Stand For' section */

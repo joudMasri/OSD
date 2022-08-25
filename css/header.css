@@ -73,6 +73,7 @@ header .ctn:hover{
 .contact-btn{
     background-color: aqua !important;
     color: #fff;
+    /* display: block; */
     display: none;
 }
 .contact-btn:hover{
@@ -228,5 +229,7 @@ header{
         left: 0;
         right: 0;
     }
-
+    .contact-btn{
+        display: inline-block;
+    }
 }
