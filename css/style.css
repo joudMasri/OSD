@@ -32,7 +32,7 @@ p{
 
 
 /* Start Process Section */
-
+/* 
 .process-container{
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 
 
@@ -376,8 +376,8 @@ p{
 }
 
 .technologies-container .icons-container .empty-technologie{
-  margin-left:-40px;
-  margin-right: -40px;
+  margin-left:-30px;
+  margin-right: -20px;
   display: none;
 }
 

@@ -50,6 +50,6 @@ x.addEventListener('click', ()=>{
 
 
 const emptyTech = document.querySelector(".empty-technologie");
-if($(document).width()>700){
+if($(document).width()<700){
     emptyTech.style.display = "block";
 }
