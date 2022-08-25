@@ -99,6 +99,9 @@ p{
     font-size: 3vmin;
     cursor: pointer;
 }
+.footer-container .row .icon a{
+    font-size: 3vmin;
+}
 
 .footer-container .row .icon:hover{
     color: #03DEE7;
@@ -142,7 +145,7 @@ i{
     .footer-container .links{
         flex-wrap: wrap;
         margin: 0;
-        font-size: 3vmin;
+        font-size: 4vmin;
     }
     .footer-container .row{
         width: 100%;
