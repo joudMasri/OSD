@@ -248,7 +248,7 @@ p{
     .row .left-col{
       width: 100%;
       height: 550px;
-      /* padding: 20vmin 3vmin; */
+      padding: 7vmin 3vmin;
     }
     .row .left-col h1{
       padding-top: 1rem;
