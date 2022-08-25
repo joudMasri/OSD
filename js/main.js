@@ -50,7 +50,7 @@ x.addEventListener('click', ()=>{
 
 const contactBtn = document.querySelector(".contact-btn");
 const emptyTech = document.querySelector(".empty-technologie");
-if($(document).width()<700){
+if($(document).width()<1000){
     emptyTech.style.display = "block";
     contactBtn.style.display= 'flex'
 }
