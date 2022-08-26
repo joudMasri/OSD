@@ -23,11 +23,6 @@ p{
     width: 100%;
     display: flex;
     margin: 0 6.5rem;
-    /* flex-wrap: wrap; */
-    /* flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around; */
 }
 .footer-container .links .row{
     width: 100%;
@@ -46,7 +41,6 @@ p{
 
 .footer-container .row{
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
