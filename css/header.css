@@ -133,6 +133,7 @@ header{
 
 .navbar-mobile {
     display: none;
+    position: absolute;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -226,7 +227,7 @@ header{
         display: flex;
         left: 0;
         right: 0;
-        height: 14vmin;
+        height: 10vmin;
     }
     .contact-btn{
         display: inline-block;
