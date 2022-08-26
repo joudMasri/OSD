@@ -129,14 +129,16 @@
     .contact-container .inputs-information .personnel-information{
         width: 100%;
         margin-left: 3vmin;
-        margin-bottom: 2vmin;
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 14px;
+        margin-bottom: 2.5rem;
+
     }
     .contact-container .inputs-information .personnel-information input{
         height: 30px;
+        font-size: 13px;
     }
     .contact-container .inputs-information .personnel-information .countries{
         height: 31px;

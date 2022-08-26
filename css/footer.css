@@ -46,7 +46,7 @@ p{
 
 .footer-container .row{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;

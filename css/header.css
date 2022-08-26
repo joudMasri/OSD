@@ -227,7 +227,7 @@ header{
         display: flex;
         left: 0;
         right: 0;
-        height: 10vmin;
+        height: 11vmin;
     }
     .contact-btn{
         display: inline-block;
