@@ -301,7 +301,7 @@ p{
 
 .row .left-col{
   width: 100%;
-  height: 550px;
+  height: 500px;
   padding: 7vmin 3vmin;
 }
 .row .left-col h1{
@@ -316,14 +316,14 @@ p{
 
 .row .right-col{
   width: 100%;
-  height: 500px;
+  height: 550px;
   display: grid;
   grid-template-columns: 1fr;
   padding-bottom: 2rem;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  padding: 1rem 0;
+  /* margin: 0; */
+  padding: 1.5rem 0;
 }
 
 .right-col .row-content{
