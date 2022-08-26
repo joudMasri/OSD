@@ -117,7 +117,7 @@
     border-color: #080320;
 }
 
-@media (max-width: 700px){
+@media (max-width: 1000px){
     .contact-container{
         align-items: center;
         justify-content: center;
@@ -139,8 +139,8 @@
         height: 30px;
     }
     .contact-container .inputs-information .personnel-information .countries{
-        height: 30px;
-        font-size: 14px;
+        height: 31px;
+        font-size: 13px;
     }
     .contact-container .inputs-information .personnel-information .first-col{
         width: 50%;

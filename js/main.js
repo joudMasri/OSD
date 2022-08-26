@@ -12,13 +12,21 @@ const Navmobile = document.querySelector(".navbar-mobile ");
 window.onscroll =()=>{
     if(window.pageYOffset >470){
         btnScrollToTop.style.display ='flex';
-        Navmobile.style.position = 'fixed'
+        
+        Navmobile.style.position = 'fixed';
+        Navmobile.style.background = 'black';
+        
         navbar.style.position = 'fixed';
+        navbar.style.background = 'gray'
     }
     else{
         btnScrollToTop.style.display = 'none';
+        
+        Navmobile.style.position = 'absolute';
+        Navmobile.style.background = 'transparent';
+
         navbar.style.position = 'absolute'
-        mobileNav.style.position = 'absolute'
+        navbar.style.background = 'transparent'
     } 
 }
 

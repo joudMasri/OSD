@@ -2,15 +2,18 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    right: 0;
+    max-width: inherit;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 4vmin;
     color: whitesmoke;
     height: 5vmin;
-    background-color: rgb(193, 193, 193);
+    /* background-color: rgb(193, 193, 193); */
+    
     z-index: 1000;
+    overflow: hidden;
 }
 
 .navbar a{
@@ -130,17 +133,12 @@ header{
 
 .navbar-mobile {
     display: none;
-    /* clear: both; */
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
     height: 19vmin;
-    /* width: 100%; */
-    /* width: inherit; */
     max-width: inherit;
     color: #fff;
-    /* position: fixed; */
     left: 0;
     right: 0;
     top: 0;
@@ -228,6 +226,7 @@ header{
         display: flex;
         left: 0;
         right: 0;
+        height: 14vmin;
     }
     .contact-btn{
         display: inline-block;
