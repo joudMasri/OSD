@@ -336,7 +336,8 @@ p{
   width: 100%;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .row-content .icon{
   width: 7.8vmin !important;
