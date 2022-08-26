@@ -306,12 +306,12 @@ p{
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 1150px;
+  height: 1050px;
 }
 
 .row .left-col{
   width: 100%;
-  height: 650px;
+  height: 550px;
   padding: 7vmin 3vmin;
 }
 .row .left-col h1{
@@ -320,7 +320,7 @@ p{
 }
 .about .row .left-col p{
   width: 90%;
-  font-size:14px ;
+  font-size:18px ;
   text-align: center;
 }
 
@@ -329,7 +329,7 @@ p{
   height: 500px;
   display: grid;
   grid-template-columns: 1fr;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .right-col .row-content{
@@ -350,13 +350,12 @@ p{
   width: 70%;
 }
 .right-col .row-content .content .content-title{
-  font-size: 14px;
+  font-size: 22px;
 }
 .row-content p{
-  font-size: 10px;
+  font-size: 18px;
   width: 100%;
 }
-
 
 }
 
