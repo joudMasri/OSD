@@ -143,6 +143,9 @@ header {
 	left: -13vmin;
 	right: 0;
 	top: 0;
+	background: url(../img/Header/MenuBackground_Web.png);
+	top: -1vmin;
+	background-size: cover;
 	max-width: inherit;
 	z-index: 1000;
 	overflow: hidden;
