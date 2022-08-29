@@ -12,15 +12,26 @@ const Navmobile = document.querySelector(".navbar-mobile ");
 window.onscroll =()=>{
     if(window.pageYOffset >470){
         btnScrollToTop.style.display ='flex';
-        
-        Navmobile.style.position = 'fixed';
-        Navmobile.style.background = 'black';
-        
-        navbar.style.position = 'fixed';
-        navbar.style.background = 'gray'
     }
     else{
         btnScrollToTop.style.display = 'none';
+        
+    } 
+
+    if(window.pageYOffset >40){
+        
+        Navmobile.style.position = 'fixed';
+        Navmobile.style.background = "url(../img/Header/MenuBackground_Web.png)";
+        Navmobile.style.marginTop = "-3.5vmin";
+        Navmobile.style.backgroundRepeat = 'no-repeat'
+
+        
+        navbar.style.position = 'fixed';
+        navbar.style.background = "url(../img/Header/MenuBackground_Web.png)";
+        navbar.style.marginTop = "-1.5vmin";
+        navbar.style.backgroundRepeat = 'no-repeat';
+    }
+    else{
         
         Navmobile.style.position = 'absolute';
         Navmobile.style.background = 'transparent';
