@@ -21,9 +21,9 @@ window.onscroll =()=>{
     if(window.pageYOffset >40){
         
         Navmobile.style.position = 'fixed';
-        // Navmobile.style.background = "url(../img/Header/MenuBackground_Web.png)";
-        Navmobile.style.background = "black";
-        Navmobile.style.marginTop = "-2vmin";
+        Navmobile.style.background = "url(../img/Header/MenuBackground_Web.png)";
+        // Navmobile.style.background = "black";
+        // Navmobile.style.marginTop = "-1vmin";
         Navmobile.style.backgroundRepeat = 'no-repeat'
 
         
