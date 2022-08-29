@@ -35,10 +35,10 @@ window.onscroll =()=>{
     else{
         
         Navmobile.style.position = 'absolute';
-        Navmobile.style.background = 'transparent';
+        // Navmobile.style.background = 'transparent';
 
         navbar.style.position = 'absolute'
-        navbar.style.background = 'transparent'
+        // navbar.style.background = 'transparent'
     } 
 }
 
