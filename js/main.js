@@ -9,6 +9,7 @@ const navLogo = document.querySelector('.nav-logo');
 const navbar = document.querySelector('.navbar')
 const btnScrollToTop = document.getElementById("btnScrollToTop");
 const Navmobile = document.querySelector(".navbar-mobile ");
+
 window.onscroll =()=>{
     if(window.pageYOffset >470){
         btnScrollToTop.style.display ='flex';
@@ -17,8 +18,11 @@ window.onscroll =()=>{
         btnScrollToTop.style.display = 'none';
         
     } 
+}
 
-    if(window.pageYOffset >40){
+window.onscroll =()=>{
+    
+    if(window.pageYOffset >30){
         
         Navmobile.style.position = 'fixed';
         Navmobile.style.background = "url(../img/Header/MenuBackground_Web.png)";
