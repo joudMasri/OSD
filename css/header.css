@@ -140,7 +140,7 @@ header {
 	height: 25vmin;
 	max-width: inherit;
 	color: #fff;
-	left: -13vmin;
+	left: -23vmin;
 	right: 0;
 	top: 0;
 	background: url(../img/Header/MenuBackground_Web.png);
@@ -149,7 +149,7 @@ header {
 	max-width: inherit;
 	z-index: 1000;
 	overflow: hidden;
-	padding-left: 17vmin;
+	padding-left: 27vmin;
 }
 
 #mobile-menu {
