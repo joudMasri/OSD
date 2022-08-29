@@ -15,7 +15,7 @@ a {
 	padding: 4vmin;
 	color: whitesmoke;
 	height: 5vmin;
-	background-size: cover;
+	/* background-size: cover; */
 	z-index: 1000;
 	overflow: hidden;
 	padding-left: 17vmin;
@@ -43,7 +43,7 @@ a {
 }
 
 /* .navbar .logo {
-	margin-left: 13vmin;
+	margin-left: 17vmin;
 } */
 
 .ctn {
@@ -137,7 +137,7 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	height: 19vmin;
+	height: 25vmin;
 	max-width: inherit;
 	color: #fff;
 	left: -13vmin;
@@ -242,7 +242,7 @@ header {
 	.navbar-mobile {
 		display: flex;
 		right: 0;
-		height: 20vmin;
+		height: 22vmin;
 	}
 	.contact-btn {
 		display: inline-block;
