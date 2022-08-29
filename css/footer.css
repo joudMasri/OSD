@@ -60,7 +60,7 @@ p {
 	background: #f7f8ff;
 	border-radius: 3px;
 	position: absolute;
-	top: 21px;
+	top: 23px;
 	left: 0;
 	overflow: hidden;
 }
@@ -131,7 +131,7 @@ i {
 		padding-left: 2vmin;
 		padding-top: 5vmin;
 		padding-bottom: 10vmin;
-		height: 60vmin;
+		height: 65vmin;
 	}
 	.footer-container .links {
 		flex-wrap: wrap;
