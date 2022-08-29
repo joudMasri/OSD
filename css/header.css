@@ -18,6 +18,7 @@ a {
 	background-size: cover;
 	z-index: 1000;
 	overflow: hidden;
+	padding-left: 17vmin;
 }
 
 .navbar a {
@@ -41,9 +42,9 @@ a {
 	color: #fc036b;
 }
 
-.navbar .logo {
+/* .navbar .logo {
 	margin-left: 13vmin;
-}
+} */
 
 .ctn {
 	padding: 2vmin 4vmin;
@@ -226,8 +227,8 @@ header {
 		right: 0;
 		height: 12vmin;
 	}
-	.navbar-mobile .nav-logo {
-		margin-left: 15vmin;
+	.navbar-mobile {
+		padding-left: 15vmin;
 	}
 	.contact-btn {
 		display: inline-block;

@@ -33,7 +33,7 @@ p {
 .footer-container a {
 	text-decoration: none;
 	color: #f7f8ff;
-	font-size: 2.5vmin;
+	font-size: 16px !important;
 }
 
 .footer-container .row {
@@ -47,7 +47,7 @@ p {
 .footer-container .row .title {
 	margin-bottom: 2vmin;
 	position: relative;
-	font-size: 4vmin;
+	font-size: 21px !important;
 }
 
 .footer-container .row::-webkit-scrollbar {
@@ -87,7 +87,7 @@ p {
 
 .footer-container .row .icon {
 	margin-bottom: 0.75vmin;
-	font-size: 3vmin;
+	font-size: 16px !important;
 	cursor: pointer;
 }
 .footer-container .row .icon a {
