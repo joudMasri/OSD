@@ -23,8 +23,8 @@ window.onscroll =()=>{
         Navmobile.style.position = 'fixed';
         Navmobile.style.background = "url(../img/Header/MenuBackground_Web.png)";
         // Navmobile.style.background = "black";
-        // Navmobile.style.marginTop = "-1vmin";
-        Navmobile.style.backgroundRepeat = 'no-repeat'
+        Navmobile.style.marginTop = "-1vmin";
+        Navmobile.style.backgroundRepeat = 'no-repeat';
 
         
         navbar.style.position = 'fixed';

@@ -146,6 +146,7 @@ header {
 	max-width: inherit;
 	z-index: 1000;
 	overflow: hidden;
+	padding-left: 17vmin;
 }
 
 #mobile-menu {
@@ -223,13 +224,9 @@ header {
 
 	.navbar-mobile {
 		display: flex;
-		left: -13vmin;
-		right: 0;
 		height: 12vmin;
 	}
-	.navbar-mobile {
-		padding-left: 15vmin;
-	}
+
 	.contact-btn {
 		display: inline-block;
 	}
@@ -241,7 +238,6 @@ header {
 
 	.navbar-mobile {
 		display: flex;
-		right: 0;
 		height: 22vmin;
 	}
 	.contact-btn {

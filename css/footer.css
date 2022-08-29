@@ -125,7 +125,7 @@ i {
 	width: 50%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
 	.footer-container {
 		justify-content: space-around;
 		padding-left: 2vmin;
