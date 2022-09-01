@@ -117,19 +117,22 @@
 	.contact-container .inputs-information .personnel-information {
 		flex-wrap: inherit;
 		width: 100%;
-		height: 45vmin;
+		height: 47vmin;
 		margin: 0;
 	}
 	.contact-container .inputs-information .personnel-information .first-col {
 		flex-direction: column;
 		width: 100%;
 		margin: 0;
+		flex: auto;
 	}
 
 	.contact-container .inputs-information .personnel-information .second-col {
 		flex-direction: column;
 		width: 100%;
 		margin: 0;
+		margin-bottom: 10px;
+		flex: auto;
 	}
 }
 
