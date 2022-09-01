@@ -131,13 +131,6 @@
 		width: 100%;
 		margin: 0;
 	}
-	.contact-container .inputs-information .helping-question {
-		width: 90%;
-		margin: auto;
-	}
-	.contact-container .inputs-information .helping-question input {
-		width: 100%;
-	}
 }
 
 @media (max-width: 1000px) {
