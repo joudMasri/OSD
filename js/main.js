@@ -10,6 +10,7 @@ const navbar = document.querySelector('.navbar')
 const btnScrollToTop = document.getElementById("btnScrollToTop");
 const Navmobile = document.querySelector(".navbar-mobile ");
 
+
 window.onscroll =()=>{
     if(window.pageYOffset >470){
         btnScrollToTop.style.display ='flex';
@@ -18,9 +19,6 @@ window.onscroll =()=>{
         btnScrollToTop.style.display = 'none';
         
     } 
-}
-
-window.onscroll =()=>{
     
     if(window.pageYOffset >30){
         

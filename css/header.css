@@ -243,6 +243,17 @@ header {
 		display: flex;
 		height: 22vmin;
 	}
+	.header-content .btns {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.header-content .btns .ctn {
+		width: 120px;
+		margin-bottom: 4px;
+		border-radius: 9px;
+	}
 	.contact-btn {
 		display: inline-block;
 	}

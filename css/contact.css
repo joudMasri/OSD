@@ -113,6 +113,33 @@
 	border-color: #080320;
 }
 
+@media (max-width: 700px) {
+	.contact-container .inputs-information .personnel-information {
+		flex-wrap: inherit;
+		width: 100%;
+		height: 45vmin;
+		margin: 0;
+	}
+	.contact-container .inputs-information .personnel-information .first-col {
+		flex-direction: column;
+		width: 100%;
+		margin: 0;
+	}
+
+	.contact-container .inputs-information .personnel-information .second-col {
+		flex-direction: column;
+		width: 100%;
+		margin: 0;
+	}
+	.contact-container .inputs-information .helping-question {
+		width: 90%;
+		margin: auto;
+	}
+	.contact-container .inputs-information .helping-question input {
+		width: 100%;
+	}
+}
+
 @media (max-width: 1000px) {
 	.contact-container {
 		align-items: center;
@@ -152,7 +179,7 @@
 		width: 50%;
 	}
 	.contact-container .inputs-information .helping-question {
-		width: 100%;
+		width: 90%;
 		margin-left: 2vmin;
 		align-items: center;
 		justify-content: center;
