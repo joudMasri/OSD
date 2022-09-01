@@ -1,3 +1,7 @@
+/* * {
+	overflow-x: hidden;
+} */
+
 .contact-container {
 	display: flex;
 	flex-direction: column;
@@ -9,6 +13,7 @@
 	width: 100%;
 	font-size: 2vmin;
 	padding-top: 12vmin;
+	overflow: hidden;
 }
 
 .contact-container .contact-title {
@@ -175,9 +180,9 @@
 		width: 50%;
 	}
 	.contact-container .inputs-information .helping-question {
-		width: 100%;
-		margin: auto;
-		/* margin-left: 2vmin; */
+		width: 96%;
+		/* margin: auto; */
+		margin-left: 2vmin;
 		align-items: center;
 		justify-content: center;
 		font-size: 14px;
