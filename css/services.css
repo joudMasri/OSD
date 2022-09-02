@@ -36,7 +36,7 @@ section {
 	margin-top: 3vmin;
 	grid-gap: 0;
 	row-gap: 5vmin;
-	margin-bottom: 3vmin;
+	/* margin-bottom: 3vmin; */
 	overflow: hidden;
 }
 
@@ -66,16 +66,19 @@ section {
 }
 
 .service {
-	padding: 1rem 2rem;
+	padding: 1.5rem 1.5rem;
 	cursor: pointer;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	border-radius: 4.5vmin;
+	/* border-radius: 4.5vmin; */
+	border-radius: 40px;
 	background-color: rgb(239, 239, 239);
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-	height: 40vmin;
-	width: 46vmin;
+	/* height: 40vmin; */
+	height: 300px;
+	/* width: 46vmin; */
+	width: 310px;
 	margin: auto;
 	/* padding-bottom: 30px; */
 }
@@ -92,7 +95,8 @@ section {
 .service .head h3 {
 	width: 85%;
 	margin: 0;
-	font-size: 20px;
+	/* font-size: 3vmin; */
+	font-size: 23px;
 }
 
 .description {
@@ -119,7 +123,8 @@ section {
 }
 
 .service .description {
-	font-size: 18px;
+	/* font-size: 2.7vmin !important; */
+	font-size: 20px !important;
 	width: 240px;
 }
 

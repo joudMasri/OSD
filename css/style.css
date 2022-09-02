@@ -135,7 +135,7 @@ p {
 	text-align: left;
 	width: 40%;
 	padding: 0 3vmin;
-	background: url(../img/Mask\ Group\ 10@2x.png);
+	background: url(../img/About/Mask\ Group\ 10.png);
 	background-size: cover;
 	color: white;
 	display: flex;
@@ -149,8 +149,8 @@ p {
 	margin-bottom: 3vmin;
 }
 
-.row .left-col p {
-	font-size: 22px;
+.about .row .left-col p {
+	font-size: 22px !important;
 }
 
 .row .left-col span {
@@ -170,7 +170,7 @@ p {
 	display: grid;
 	grid-template-columns: 1fr;
 	/* justify-content: center; */
-	background: url(../img/AboutUs_Background_Web.svg);
+	background: url(../img/About/AboutUs_Background_Web.svg);
 	background-size: cover;
 	background-position: left;
 }
@@ -185,18 +185,13 @@ p {
 
 .right-col h3 {
 	color: #0162ff;
-	font-size: 22px;
+	font-size: 22px !important;
 	margin: 0;
 }
 
 .row-content .icon {
 	cursor: pointer;
-	background-image: url(../img/AboutUs_PolygonShape.svg);
-	background-size: cover;
-	/* width: 195px;
-  height: 85px; */
-	width: 90px;
-	height: 95px;
+	height: 90px !important;
 	margin-right: 2vmin;
 	display: flex;
 	align-items: center;
@@ -204,16 +199,14 @@ p {
 }
 
 .row-content .icon img {
-	display: none;
-	width: 70%;
-	height: 70%;
+	width: 100%;
+	height: 100%;
 	margin-left: 7.5px;
-	z-index: 1;
-	display: block;
+	object-fit: cover;
 }
 
 .row-content p {
-	font-size: 22px;
+	font-size: 22px !important;
 	margin-top: -0.1px;
 	width: 91%;
 }

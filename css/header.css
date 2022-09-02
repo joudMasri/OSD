@@ -7,7 +7,8 @@ a {
 }
 
 .navbar {
-	background: black !important;
+	/* background: black !important; */
+	/* background: url(../img/Header/MenuBackground_Web.png) !important; */
 	position: absolute;
 	top: 0;
 	left: -13vmin;
@@ -25,10 +26,17 @@ a {
 	overflow: hidden;
 	padding-left: 17vmin;
 }
+.navbar .logo {
+	width: 55px;
+	height: 55px;
+	background: url(../img/Header/Logo_WithWhite.png);
+	background-size: cover;
+}
 
 .navbar a {
 	color: whitesmoke;
-	font-size: 3vmin;
+	/* font-size: 3vmin; */
+	font-size: 20px;
 }
 .navbar a h1 {
 	margin: 0;
@@ -40,7 +48,7 @@ a {
 }
 
 .nav-links li {
-	margin: 0 5vmin;
+	margin: 0 20px;
 }
 
 .nav-links li a:hover {
@@ -52,17 +60,23 @@ a {
 } */
 
 .ctn {
-	padding: 2vmin 4vmin;
+	/* padding: 2vmin 4vmin; */
+	/* padding: 12px 14px; */
+	width: 150px;
+	height: 50px;
 	background-color: aqua;
 	border: none;
 	color: white;
-	border-radius: 1.35vmin;
+	/* border-radius: 1.35vmin; */
+	border-radius: 12px;
 	cursor: pointer;
-	font-size: 3vmin;
+	/* font-size: 3vmin; */
+	font-size: 20px;
 }
 
 header .ctn {
 	background: transparent;
+	width: 175px;
 	border: 2px solid aqua;
 }
 
@@ -94,7 +108,8 @@ header .ctn:hover {
 header {
 	width: 100vw;
 	height: 100vh;
-	background-image: url(../img/1.webp);
+	/* background-image: url(../img/1.webp); */
+	background-image: url(../img/Header/BackgroundImage@3x.png);
 	cursor: pointer;
 	background-position: bottom;
 	background-size: cover;
@@ -108,10 +123,32 @@ header {
 	text-align: center;
 }
 
-.header-content h1 {
+.header-content .logo {
+	/* width: 100px; */
+	/* height: 100px; */
+	/* background: url(../img/Header/Logo_WithWhite.png); */
+	/* background-size: cover; */
+}
+
+.header-content .logo img {
+	object-fit: cover;
+	width: 150px;
+	height: 150px;
+}
+
+.header-content .logo-description {
+}
+
+.header-content .logo-description img {
+	width: 480px;
+	height: 90px;
+	object-fit: cover;
+}
+
+/* .header-content h1 {
 	font-size: 60px;
 	margin: 0;
-}
+} */
 
 .line {
 	width: 150px;
@@ -122,7 +159,8 @@ header {
 }
 
 .header-content h2 {
-	font-size: 4vmin;
+	/* font-size: 4vmin; */
+	font-size: 20px;
 }
 
 .menu-btn {
@@ -149,7 +187,7 @@ header {
 	right: 0;
 	top: 0;
 	/* background: url(../img/Header/MenuBackground_Web.png); */
-	background: black !important;
+	/* background: black !important; */
 	top: -1vmin;
 	background-size: cover;
 	max-width: inherit;

@@ -23,24 +23,25 @@ window.onscroll =()=>{
     if(window.pageYOffset >30){
         
         Navmobile.style.position = 'fixed';
-        Navmobile.style.background = "url(../img/Header/MenuBackground_Web.png)";
+        Navmobile.style.background=  "url(../img/Header/MenuBackground_Web.png)";
         // Navmobile.style.background = "black";
         Navmobile.style.marginTop = "-1vmin";
         Navmobile.style.backgroundRepeat = 'no-repeat';
 
         
         navbar.style.position = 'fixed';
-        navbar.style.background = "url(../img/Header/MenuBackground_Web.png)";
+        navbar.style.background=  "url(../img/Header/MenuBackground_Web.png)";
+        // navbar.style.background = "black";
         navbar.style.marginTop = "-1.5vmin";
         navbar.style.backgroundRepeat = 'no-repeat';
     }
     else{
         
         Navmobile.style.position = 'absolute';
-        // Navmobile.style.background = 'transparent';
+        Navmobile.style.background = 'transparent';
 
         navbar.style.position = 'absolute'
-        // navbar.style.background = 'transparent'
+        navbar.style.background = 'transparent'
     } 
 }
 
