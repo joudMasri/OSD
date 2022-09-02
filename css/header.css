@@ -157,6 +157,12 @@ header {
 	overflow: hidden;
 	padding-left: 25vmin;
 }
+/* .navbar-mobile .mobile-nav ul {
+	margin-right: 30px;
+} */
+.navbar-mobile .mobile-nav ul li {
+	margin-right: 10px;
+}
 
 #mobile-menu {
 	cursor: pointer;
