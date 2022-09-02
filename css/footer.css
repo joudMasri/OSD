@@ -125,7 +125,7 @@ i {
 	background: #f7f8ff;
 	border-radius: 3px;
 	position: absolute;
-	bottom: 8.3vmin;
+	bottom: 8.7vmin;
 	width: 50%;
 }
 
@@ -135,7 +135,7 @@ i {
 		padding-left: 2vmin;
 		padding-top: 5vmin;
 		padding-bottom: 10vmin;
-		height: 65vmin;
+		height: 70vmin;
 	}
 	.footer-container .links {
 		flex-wrap: wrap;
@@ -145,5 +145,8 @@ i {
 	.footer-container .row {
 		width: 100%;
 		height: 70%;
+	}
+	.footer-container .row .icon a i {
+		margin-right: 9px;
 	}
 }
