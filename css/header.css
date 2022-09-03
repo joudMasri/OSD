@@ -159,7 +159,6 @@ header {
 } */
 
 .header-content .osd-description {
-	width: 90%;
 	text-align: center;
 }
 
@@ -196,7 +195,7 @@ header {
 	height: 25vmin;
 	max-width: inherit;
 	color: #fff;
-	/* left: -23vmin;  ////////*/
+	left: -23vmin;
 	right: 0;
 	top: 0;
 	/* background: url(../img/Header/MenuBackground_Web.png); */
@@ -206,7 +205,7 @@ header {
 	max-width: inherit;
 	z-index: 1000;
 	overflow: hidden;
-	/* padding-left: 25vmin;  //////////*/
+	padding-left: 25vmin;
 }
 /* .navbar-mobile .mobile-nav ul {
 	margin-right: 30px;
@@ -310,6 +309,16 @@ header {
 	.header-content .logo-description img {
 		width: 80%;
 		height: 45px;
+	}
+
+	.header-content .osd-description {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.header-content .osd-description h2 {
+		width: 75%;
 	}
 	.header-content .btns {
 		display: flex;
