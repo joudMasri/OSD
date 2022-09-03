@@ -196,7 +196,7 @@ header {
 	height: 25vmin;
 	max-width: inherit;
 	color: #fff;
-	left: -23vmin;
+	/* left: -23vmin;  ////////*/
 	right: 0;
 	top: 0;
 	/* background: url(../img/Header/MenuBackground_Web.png); */
@@ -206,7 +206,7 @@ header {
 	max-width: inherit;
 	z-index: 1000;
 	overflow: hidden;
-	padding-left: 25vmin;
+	/* padding-left: 25vmin;  //////////*/
 }
 /* .navbar-mobile .mobile-nav ul {
 	margin-right: 30px;
