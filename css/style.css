@@ -235,11 +235,11 @@ p {
 	}
 	.row .left-col h1 {
 		padding-top: 1rem;
-		font-size: 30px;
+		font-size: 30px !important;
 	}
 	.about .row .left-col p {
 		width: 90%;
-		font-size: 14px;
+		font-size: 14px !important;
 		text-align: center;
 	}
 
@@ -269,10 +269,10 @@ p {
 		width: 70%;
 	}
 	.right-col .row-content .content .content-title {
-		font-size: 18px;
+		font-size: 18px !important;
 	}
 	.row-content p {
-		font-size: 12px;
+		font-size: 12px !important;
 		width: 100%;
 	}
 }
@@ -297,11 +297,11 @@ p {
 	}
 	.row .left-col h1 {
 		padding-top: 1rem;
-		font-size: 30px;
+		font-size: 30px !important;
 	}
 	.about .row .left-col p {
 		width: 90%;
-		font-size: 18px;
+		font-size: 18px !important;
 		text-align: center;
 	}
 
@@ -336,10 +336,10 @@ p {
 		width: 70%;
 	}
 	.right-col .row-content .content .content-title {
-		font-size: 22px;
+		font-size: 22px !important;
 	}
 	.row-content p {
-		font-size: 18px;
+		font-size: 18px !important;
 		width: 100%;
 	}
 }

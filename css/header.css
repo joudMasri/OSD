@@ -97,7 +97,15 @@ header .ctn:hover {
 	color: white;
 }
 .contact-btn {
-	background-color: aqua !important;
+	/* background-color: aqua !important; */
+	background-color: linear-gradient(
+		to right,
+		#1175fd 0%,
+		5.263157933950424%,
+		#107cfb 10.526315867900848%,
+		55.263157933950424%,
+		#04d7e8 100%
+	) !important;
 	color: #fff;
 	display: none;
 }
@@ -149,6 +157,11 @@ header {
 	font-size: 60px;
 	margin: 0;
 } */
+
+.header-content .osd-description {
+	width: 90%;
+	text-align: center;
+}
 
 .line {
 	width: 150px;
@@ -284,7 +297,7 @@ header {
 		display: inline-block;
 	}
 }
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px) {
 	.navbar {
 		display: none;
 	}
@@ -293,6 +306,10 @@ header {
 		display: flex;
 		height: 25vmin;
 		align-items: center;
+	}
+	.header-content .logo-description img {
+		width: 80%;
+		height: 45px;
 	}
 	.header-content .btns {
 		display: flex;

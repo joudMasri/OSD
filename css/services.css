@@ -38,7 +38,7 @@ section {
 	/* row-gap: 5vmin; */
 	row-gap: 30px;
 	/* margin-bottom: 3vmin; */
-	/* overflow: hidden; */
+	overflow: hidden;
 }
 
 .container .title {
