@@ -3,10 +3,9 @@ const heroSection = document.getElementById('hero');
 heroSection.addEventListener("click",()=>{
     // window.scrollTo(0,document.documentElement.scrollHeight - window.innerHeight);
 
-    window.scrollTo(0,document.documentElement.scrollHeight - 4850)
+    // window.scrollTo(0,document.documentElement.scrollHeight - 4850)
 
-
-
+    window.scrollTo(0,heroSection.scrollHeight)
 })
 
 
