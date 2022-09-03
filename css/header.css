@@ -318,7 +318,7 @@ header {
 		flex-direction: column;
 	}
 	.header-content .osd-description h2 {
-		width: 75%;
+		width: 85%;
 	}
 	.header-content .btns {
 		display: flex;

@@ -1,3 +1,17 @@
+const heroSection = document.getElementById('hero');
+
+heroSection.addEventListener("click",()=>{
+    // window.scrollTo(0,document.documentElement.scrollHeight - window.innerHeight);
+
+    window.scrollTo(0,document.documentElement.scrollHeight - 4850)
+
+
+
+})
+
+
+
+
 const menuBtn = document.querySelector('.menu-btn');
 const navLinks = document.querySelector('.nav-links');
 
@@ -23,15 +37,15 @@ window.onscroll =()=>{
     if(window.pageYOffset >30){
         
         Navmobile.style.position = 'fixed';
-        Navmobile.style.background=  "url(../img/Header/MenuBackground_Web.png)";
-        // Navmobile.style.background = "black";
+        // Navmobile.style.background=  "url(../img/Header/MenuBackground_Web.png)";
+        Navmobile.style.background = "black";
         Navmobile.style.marginTop = "-1vmin";
         Navmobile.style.backgroundRepeat = 'no-repeat';
 
         
         navbar.style.position = 'fixed';
-        navbar.style.background=  "url(../img/Header/MenuBackground_Web.png)";
-        // navbar.style.background = "black";
+        // navbar.style.background=  "url(../img/Header/MenuBackground_Web.png)";
+        navbar.style.background = "black";
         navbar.style.marginTop = "-1.5vmin";
         navbar.style.backgroundRepeat = 'no-repeat';
     }
