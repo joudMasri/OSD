@@ -207,6 +207,12 @@ header {
 	overflow: hidden;
 	padding-left: 25vmin;
 }
+.navbar-mobile .logo {
+	width: 40px;
+	height: 40px;
+	background: url(../img/Header/Logo_WithWhite.png);
+	background-size: cover;
+}
 /* .navbar-mobile .mobile-nav ul {
 	margin-right: 30px;
 } */
