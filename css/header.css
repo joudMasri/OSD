@@ -24,11 +24,11 @@ a {
 	/* background-size: cover; */
 	z-index: 1000;
 	overflow: hidden;
-	padding-left: 17vmin;
+	padding-left: 30vmin;
 }
 .navbar .logo {
-	width: 55px;
-	height: 55px;
+	width: 65px;
+	height: 65px;
 	background: url(../img/Header/Logo_WithWhite.png);
 	background-size: cover;
 }

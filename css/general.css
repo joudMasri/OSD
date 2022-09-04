@@ -49,3 +49,21 @@ section {
 .titles {
 	font-size: 40px !important;
 }
+
+/* :root {
+	--roze: #df1d5a;
+	--yellow: #ebb22d;
+	--green: #2db67e;
+} */
+
+.roze {
+	color: #df1d5a;
+}
+
+.yellow {
+	color: #ebb22d;
+}
+
+.green {
+	color: #2db67e;
+}
