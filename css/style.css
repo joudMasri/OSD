@@ -116,6 +116,112 @@ p {
 
 /* ========================= */
 
+/* Start Technologies section */
+
+.technologies-container {
+	position: relative;
+	overflow: hidden;
+	padding-top: 4.5rem;
+	/* padding-bottom: 4.5rem; */
+	width: 100%;
+	flex-wrap: nowrap;
+}
+
+.technologies-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.technologies-title .title {
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 2vmin;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.technologies-title a {
+	text-decoration: none;
+	color: #c8ccdc;
+	font-size: 15px;
+	margin-top: 18px;
+	margin-bottom: 4rem;
+}
+
+.icons-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	height: 190px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20vmin;
+}
+
+.icons-container .technologie {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	color: #c8ccdc;
+	cursor: pointer;
+	margin-left: 5vmin;
+	margin-right: 9vmin;
+	width: 120px;
+}
+
+.icons-container .technologie .icon {
+	/* height: 24vmin; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 110px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.icons-container .technologie .icon img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	margin: auto;
+}
+
+.icons-container .technologie .icon-title {
+	font-size: 15px;
+	width: 100%;
+	text-align: center;
+	margin-top: 3vmin;
+}
+
+.technologies-container .icons-container .empty-technologie {
+	margin-left: -15px !important;
+	margin-right: -30px !important;
+	display: none;
+}
+
+@media (max-width: 1200px) {
+	.empty-technologie {
+		display: inline-block;
+	}
+	.technologies-title .title {
+		font-size: 30px;
+	}
+	.icons-container .technologie .icon {
+		margin-bottom: 10px;
+	}
+}
+
+/* End 'We Stand For' section */
+
+/* ========================= */
+
 /* Start About Section*/
 
 .about {
@@ -160,9 +266,9 @@ p {
 
 .row .right-col {
 	width: 60%;
-	padding: 0 3vmin;
-	padding-top: 15vmin;
-	padding-bottom: 6vmin;
+	padding: 0 10px;
+	padding-top: 100px;
+	padding-bottom: 50px;
 	height: 80%;
 	/* display: flex;
   flex-direction: column;
@@ -180,7 +286,7 @@ p {
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-around;
-	margin-top: -8.5vmin;
+	margin-top: -50px;
 }
 
 .right-col h3 {
@@ -192,7 +298,7 @@ p {
 .row-content .icon {
 	cursor: pointer;
 	height: 90px !important;
-	margin-right: 2vmin;
+	margin-right: 20px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -258,8 +364,8 @@ p {
 		margin: 30px 0;
 	}
 	.row-content .icon {
-		width: 15.6vmin !important;
-		height: 16vmin !important;
+		width: 20.6vmin !important;
+		height: 21vmin !important;
 		margin-right: 1rem;
 	}
 	.row-content .icon img {
@@ -325,8 +431,8 @@ p {
 		margin-bottom: 10px;
 	}
 	.row-content .icon {
-		width: 7.8vmin !important;
-		height: 8vmin !important;
+		width: 15.8vmin !important;
+		height: 16vmin !important;
 		margin-right: 1rem;
 	}
 	.row-content .icon img {
@@ -345,102 +451,3 @@ p {
 }
 
 /* End About Section*/
-
-/* ========================= */
-
-/* Start Technologies section */
-
-.technologies-container {
-	position: relative;
-	overflow: hidden;
-	padding-top: 4.5rem;
-	/* padding-bottom: 4.5rem; */
-	width: 100%;
-	flex-wrap: nowrap;
-}
-
-.technologies-title {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 50px;
-	text-align: center;
-}
-
-.technologies-title .title {
-	font-size: 40px;
-	font-weight: 500;
-	margin-bottom: 2vmin;
-	text-transform: capitalize;
-	text-align: center;
-}
-
-.technologies-title a {
-	text-decoration: none;
-	color: #c8ccdc;
-	font-size: 15px;
-	margin-top: 18px;
-	margin-bottom: 4rem;
-}
-
-.icons-container {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	width: 100%;
-	height: 190px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 20vmin;
-}
-
-.icons-container .technologie {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	color: #c8ccdc;
-	cursor: pointer;
-	margin-left: 5vmin;
-	margin-right: 9vmin;
-}
-
-.icons-container .technologie .icon {
-	/* height: 24vmin; */
-	width: 100px !important;
-	/* width: 21vmin; */
-	height: 110px !important;
-	margin: auto;
-	margin-bottom: 50px;
-}
-
-.icons-container .technologie .icon img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.icons-container .technologie .icon-title {
-	font-size: 15px;
-	width: 100%;
-	text-align: center;
-	margin-top: 3vmin;
-}
-
-.technologies-container .icons-container .empty-technologie {
-	margin-left: -15px !important;
-	margin-right: -30px !important;
-	display: none;
-}
-
-@media (max-width: 1200px) {
-	.empty-technologie {
-		display: inline-block;
-	}
-	.technologies-title .title {
-		font-size: 30px;
-	}
-}
-
-/* End 'We Stand For' section */
