@@ -368,7 +368,7 @@ p {
 		align-items: flex-start;
 		justify-content: center;
 		margin: 30px 0;
-		margin-left: -1rem;
+		margin-left: -0.75rem;
 	}
 	.row-content .icon {
 		margin: 0 10px;
