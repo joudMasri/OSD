@@ -372,11 +372,11 @@ p {
 	.row-content .icon {
 		width: 20.6vmin !important;
 		height: 21vmin !important;
-		margin-right: 1rem;
+		margin: 0 3rem;
 	}
-	.row-content .icon img {
+	/* .row-content .icon img {
 		margin-left: 1vmin;
-	}
+	} */
 	.right-col .row-content .content {
 		width: 70%;
 	}
