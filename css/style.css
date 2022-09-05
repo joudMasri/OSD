@@ -170,9 +170,10 @@ p {
 	justify-content: space-around;
 	color: #c8ccdc;
 	cursor: pointer;
-	margin-left: 5vmin;
-	margin-right: 9vmin;
+	/* margin-left: 5vmin;
+	margin-right: 9vmin; */
 	width: 120px;
+	margin: auto;
 }
 
 .icons-container .technologie .icon {
@@ -181,30 +182,32 @@ p {
 	align-items: center;
 	justify-content: center;
 	width: 100px;
-	height: 110px;
+	height: 100px;
 	margin: auto;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
 .icons-container .technologie .icon img {
-	width: 100%;
-	height: 100%;
+	/* width: 100%; */
+	width: auto !important;
+	/* height: 100%; */
+	height: auto !important;
 	object-fit: cover;
 	margin: auto;
 }
 
 .icons-container .technologie .icon-title {
 	font-size: 15px;
-	width: 100%;
+	width: auto;
 	text-align: center;
-	margin-top: 3vmin;
+	/* margin-top: 3vmin; */
 }
 
-.technologies-container .icons-container .empty-technologie {
+/* .technologies-container .icons-container .empty-technologie {
 	margin-left: -15px !important;
 	margin-right: -30px !important;
 	display: none;
-}
+} */
 
 @media (max-width: 1200px) {
 	.empty-technologie {
@@ -297,7 +300,8 @@ p {
 
 .row-content .icon {
 	cursor: pointer;
-	height: 90px !important;
+	min-height: 85px !important;
+	width: 85px !important;
 	margin-right: 20px;
 	display: flex;
 	align-items: center;
@@ -305,8 +309,10 @@ p {
 }
 
 .row-content .icon img {
-	width: 100%;
-	height: 100%;
+	/* width: 100%; */
+	width: auto;
+	/* height: 80%; */
+	height: auto;
 	margin-left: 7.5px;
 	object-fit: cover;
 }

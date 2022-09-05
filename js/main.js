@@ -1,79 +1,79 @@
-let toggle = true;
+// let toggle = true;
 
 
-const handleLogo = document.querySelectorAll(".logo");
-const contactBtn = document.getElementById("contact-btn");
-const heroLogo = document.getElementById("hero-logo");
-const logoTitle = document.getElementById("logo-title");
-const learnMore = document.getElementById('learn-more')
+// const handleLogo = document.querySelectorAll(".logo");
+// const contactBtn = document.getElementById("contact-btn");
+// const heroLogo = document.getElementById("hero-logo");
+// const logoTitle = document.getElementById("logo-title");
+// const learnMore = document.getElementById('learn-more')
 
-const seeWhy = document.querySelector('.see-why');
+// const seeWhy = document.querySelector('.see-why');
 
-const linkPionners =document.querySelector(".link-pionners");
-const whyOSd =document.querySelectorAll('.bold');
-
-
-const contentTitleAbout = document.querySelectorAll('.content-title');
+// const linkPionners =document.querySelector(".link-pionners");
+// const whyOSd =document.querySelectorAll('.bold');
 
 
-const submit = document.querySelector('.submit');
-const cancel = document.querySelector('.cancel');
+// const contentTitleAbout = document.querySelectorAll('.content-title');
 
 
-for(let i = 0; i < handleLogo.length;i++){
+// const submit = document.querySelector('.submit');
+// const cancel = document.querySelector('.cancel');
+
+
+// for(let i = 0; i < handleLogo.length;i++){
     
-handleLogo[i].addEventListener("click",()=>{
-    toggle= !toggle;
-    if(toggle){
-        heroLogo.src ="../img/Header/Logo_WithWhite.png";
-        logoTitle.src = "../img/Header/OSD Services Title.png";
-        for(let i = 0 ; i<whyOSd.length; i++){
-            whyOSd[i].style.color ="black";
-        }
-        contactBtn.style.background = "aqua";
+// handleLogo[i].addEventListener("click",()=>{
+//     toggle= !toggle;
+//     if(toggle){
+//         heroLogo.src ="../img/Header/Logo_WithWhite.png";
+//         logoTitle.src = "../img/Header/OSD Services Title.png";
+//         for(let i = 0 ; i<whyOSd.length; i++){
+//             whyOSd[i].style.color ="black";
+//         }
+//         contactBtn.style.background = "aqua";
 
-        learnMore.style.background ="transparent";
-        learnMore.style.border = "2px solid  aqua";
+//         learnMore.style.background ="transparent";
+//         learnMore.style.border = "2px solid  aqua";
     
-        seeWhy.style.color = "#0162ff";
+//         seeWhy.style.color = "#0162ff";
 
-        linkPionners.style.color = "#0162ff";
+//         linkPionners.style.color = "#0162ff";
 
-        for(let i = 0 ; i < contentTitleAbout.length; i++){
-            contentTitleAbout[i].style.color ="#0162ff";
-        }
+//         for(let i = 0 ; i < contentTitleAbout.length; i++){
+//             contentTitleAbout[i].style.color ="#0162ff";
+//         }
 
-        // submit.style.background = 'blue';
-        // submit.style.border = "1px solid blue";
-        // cancel.style.background= "transparent";
-        // cancel.style.border = "1px solid blue";
-        // cancel.style.color= 'white';
-    }
-    else{
-        heroLogo.src = "../img/other theme/header/Logo.png";
-        logoTitle.src = "../img/other theme/header/OSD TITLE.png";
-        for(let i = 0 ; i<whyOSd.length; i++){
-            whyOSd[i].style.color ="#df1d5a";
-        }
-        contactBtn.style.background = "#2db67e";
-        learnMore.style.background = "#ebb22d";
-        learnMore.style.border = "2px solid #ebb22d";
+//         // submit.style.background = 'blue';
+//         // submit.style.border = "1px solid blue";
+//         // cancel.style.background= "transparent";
+//         // cancel.style.border = "1px solid blue";
+//         // cancel.style.color= 'white';
+//     }
+//     else{
+//         heroLogo.src = "../img/other theme/header/Logo.png";
+//         logoTitle.src = "../img/other theme/header/OSD TITLE.png";
+//         for(let i = 0 ; i<whyOSd.length; i++){
+//             whyOSd[i].style.color ="#df1d5a";
+//         }
+//         contactBtn.style.background = "#2db67e";
+//         learnMore.style.background = "#ebb22d";
+//         learnMore.style.border = "2px solid #ebb22d";
     
-        seeWhy.style.color = "#2db67e";
+//         seeWhy.style.color = "#2db67e";
 
-        linkPionners.style.color = "#ebb22d";
+//         linkPionners.style.color = "#ebb22d";
 
-        for(let i = 0 ; i < contentTitleAbout.length; i++){
-            contentTitleAbout[i].style.color ="black";
-        }
-        // submit.style.background = "#df1d5a";
-        // submit.style.border = "1px solid #df1d5a"
-        // cancel.style.background = "#ebb22d";
-        // cancel.style.border = "1px solid #ebb22d";
-        // cancel.style.color= 'white';
-    }
-})
-}
+//         for(let i = 0 ; i < contentTitleAbout.length; i++){
+//             contentTitleAbout[i].style.color ="black";
+//         }
+//         // submit.style.background = "#df1d5a";
+//         // submit.style.border = "1px solid #df1d5a"
+//         // cancel.style.background = "#ebb22d";
+//         // cancel.style.border = "1px solid #ebb22d";
+//         // cancel.style.color= 'white';
+//     }
+// })
+// }
 // handleLogo.addEventListener("click",setSrc)
 
 // function setSrc(){
@@ -161,17 +161,19 @@ const mobileMenu = document.getElementById('mobile-menu');
 const x =document.querySelector('.hide-mobile-links');
 const mobileNav = document.querySelector('.mobile-nav');
 const logo = document.querySelector('.nav-logo');
-
+const mobileLogo = document.getElementById("mobile-logo");
 mobileMenu.addEventListener('click', ()=>{
     mobileNav.style.display ='flex';
     mobileMenu.style.display = 'none'
-    logo.style.display ='none'
+    // logo.style.display ='none';
+    mobileLogo.style.display= "none";
 });
 
 x.addEventListener('click', ()=>{
     mobileNav.style.display = 'none';
     mobileMenu.style.display = 'flex';
-    logo.style.display ='block'
+    // logo.style.display ='block'
+    mobileLogo.style.display= "block";
 });
 
 
