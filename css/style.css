@@ -369,11 +369,11 @@ p {
 		justify-content: center;
 		margin: 30px 0;
 	}
-	.row-content .icon {
+	/* .row-content .icon {
 		width: 18.6vmin !important;
 		height: 19vmin !important;
 		margin: 0 3rem;
-	}
+	} */
 	/* .row-content .icon img {
 		margin-left: 1vmin;
 	} */
