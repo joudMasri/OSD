@@ -436,14 +436,14 @@ p {
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
-	.row-content .icon {
+	/* .row-content .icon {
 		width: 15.8vmin !important;
 		height: 16vmin !important;
 		margin-right: 1rem;
 	}
 	.row-content .icon img {
 		margin-left: 1vmin;
-	}
+	} */
 	.right-col .row-content .content {
 		width: 70%;
 	}
