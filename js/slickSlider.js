@@ -41,7 +41,7 @@ if($(document).width()>700){
   });
 } else{
   $('.slider').slick({
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1500,
