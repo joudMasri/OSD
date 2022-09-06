@@ -84,7 +84,7 @@ section {
 	/* width: 46vmin; */
 	/* width: 310px; */
 	width: 75% !important;
-	height: 73% !important;
+	height: 77% !important;
 	margin: auto;
 	/* padding-bottom: 30px; */
 }
@@ -92,7 +92,7 @@ section {
 .service .head {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 	text-align: center;
 	width: 100%;
 	margin: 0;
@@ -123,8 +123,8 @@ section {
 
 .service .head .icon {
 	color: #03dee7;
-	width: 53px;
-	height: 36px;
+	width: 30px;
+	height: 30px;
 }
 .service .head .icon img {
 	width: 100%;
@@ -239,7 +239,7 @@ section {
 		grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 	}
 	.service {
-		width: 290px;
+		max-width: 290px;
 		height: 250px;
 		margin: auto;
 		padding: 2rem 2rem;

@@ -132,7 +132,7 @@ header .ctn:hover {
 
 header {
 	width: 100vw;
-	height: 90vh;
+	height: 83vh;
 	/* background-image: url(../img/1.webp); */
 	background-image: url(../img/Header/BackgroundImage@3x.png);
 	cursor: pointer;
@@ -142,7 +142,7 @@ header {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	padding-bottom: 10vh;
+	padding-bottom: 17vh;
 }
 
 .header-content {

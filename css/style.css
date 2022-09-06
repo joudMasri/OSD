@@ -150,16 +150,20 @@ p {
 	margin-top: 18px;
 	margin-bottom: 4rem;
 }
+.technologies-title a span {
+	font-size: 18px;
+}
 
 .icons-container {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-around;
-	width: 100%;
+	justify-content: space-between;
+	width: 70%;
 	height: 190px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: auto;
+	/* margin-left: 20px;
+	margin-right: 20px; */
 	margin-top: 20vmin;
 }
 
@@ -167,7 +171,8 @@ p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
+	margin: auto;
+	/* justify-content: space-around; */
 	color: #c8ccdc;
 	cursor: pointer;
 	/* margin-left: 5vmin;
@@ -337,7 +342,7 @@ p {
 	width: 91%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
 	#btnScrollToTop {
 		bottom: 17px;
 	}
@@ -397,7 +402,7 @@ p {
 	}
 	.row-content .icon img {
 		width: 100%;
-		height: 55%;
+		height: 100%;
 	}
 	.right-col .row-content .content {
 		width: 70%;
