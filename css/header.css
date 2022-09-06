@@ -28,8 +28,8 @@ a {
 	padding-left: 30vmin;
 }
 .navbar .logo {
-	width: 65px;
-	height: 65px;
+	width: 50px;
+	height: 50px;
 	background: url(../img/Header/Logo_WithWhite.png);
 	background-size: cover;
 }
@@ -52,9 +52,9 @@ a {
 	margin: 0 20px;
 }
 
-.nav-links li a:hover {
+/* .nav-links li a:hover {
 	color: #fc036b;
-}
+} */
 
 /* .navbar .logo {
 	margin-left: 17vmin;
@@ -63,22 +63,31 @@ a {
 .ctn {
 	/* padding: 2vmin 4vmin; */
 	/* padding: 12px 14px; */
-	width: 120px;
-	height: 40px;
-	background-color: aqua;
+	width: 130px;
+	height: 32px;
+	background: linear-gradient(
+		to right,
+		#1175fd 0%,
+		5.263157934%,
+		#107cfb 10.5263158679%,
+		55.263157934%,
+		#04d7e8 100%
+	);
 	border: none;
 	color: white;
 	/* border-radius: 1.35vmin; */
-	border-radius: 12px;
+	border-radius: 7px;
 	cursor: pointer;
 	/* font-size: 3vmin; */
 	font-size: 20px;
 }
+.ctn:hover {
+	background: rgb(1, 98, 255);
+}
 
 header .ctn {
-	background: transparent;
-	width: 175px;
-	border: 2px solid aqua;
+	width: 160px;
+	height: 36px;
 }
 
 header .ctn a {
@@ -86,12 +95,19 @@ header .ctn a {
 	color: white;
 }
 
-.ctn:hover {
+/* .ctn:hover {
 	background-color: blue;
 	color: white;
-}
+} */
 header .ctn:hover {
-	background: aqua;
+	/* background: linear-gradient(
+		to right,
+		#1175fd 0%,
+		5.263157934%,
+		#107cfb 10.5263158679%,
+		55.263157934%,
+		#04d7e8 100%
+	); */
 }
 
 .ctn:hover > a {
@@ -116,7 +132,7 @@ header .ctn:hover {
 
 header {
 	width: 100vw;
-	height: 100vh;
+	height: 90vh;
 	/* background-image: url(../img/1.webp); */
 	background-image: url(../img/Header/BackgroundImage@3x.png);
 	cursor: pointer;
@@ -124,8 +140,9 @@ header {
 	background-size: cover;
 	color: #fff;
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: center;
+	padding-bottom: 10vh;
 }
 
 .header-content {

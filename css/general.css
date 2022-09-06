@@ -67,3 +67,12 @@ section {
 .green {
 	color: #2db67e;
 }
+
+.montserrat {
+	/* font-family: "Montserrat" !important;
+	font-weight: bold; */
+	font: var(--unnamed-font-style-normal) normal
+		var(--unnamed-font-weight-normal) var(--unnamed-font-size-40) /
+		var(--unnamed-line-spacing-49) var(--unnamed-font-family-montserrat);
+	font-size: 2rem !important;
+}
