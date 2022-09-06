@@ -32,14 +32,23 @@
 //   });
 
 
-if($(document).width()>700){
+if($(document).width()>1200){
   $('.slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1500,
   });
-} else{
+}else if($(document).width()>700){
+  $('.slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+  });
+}
+
+else{
   $('.slider').slick({
     slidesToShow: 2,
     slidesToScroll: 1,

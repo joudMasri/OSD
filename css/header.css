@@ -18,9 +18,10 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 4vmin;
+	/* padding: 4vmin; */
 	color: whitesmoke;
-	height: 5vmin;
+	/* height: 5vmin; */
+	height: 90px;
 	/* background-size: cover; */
 	z-index: 1000;
 	overflow: hidden;

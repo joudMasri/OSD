@@ -128,9 +128,9 @@ p {
 }
 
 .technologies-title {
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; */
 	margin-bottom: 50px;
 	text-align: center;
 }
@@ -197,7 +197,7 @@ p {
 }
 
 .icons-container .technologie .icon-title {
-	font-size: 15px;
+	font-size: 25px;
 	width: auto;
 	text-align: center;
 	/* margin-top: 3vmin; */
@@ -242,24 +242,26 @@ p {
 .row .left-col {
 	height: 100%;
 	text-align: left;
-	width: 40%;
-	padding: 0 3vmin;
+	width: 39%;
+	/* padding: 0 50px; */
 	background: url(../img/About/Mask\ Group\ 10.png);
 	background-size: cover;
 	color: white;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 }
 .row .left-col h1 {
 	font-size: 40px;
-	margin-top: -5vmin;
-	margin-bottom: 3vmin;
+	/* margin-top: -5vmin; */
+	margin: 0 40px;
+	margin-bottom: 4vmin;
 }
 
 .about .row .left-col p {
-	font-size: 22px !important;
+	font-size: 21.5px !important;
+	margin: 0 40px;
 }
 
 .row .left-col span {
@@ -269,19 +271,28 @@ p {
 
 .row .right-col {
 	width: 60%;
-	padding: 0 10px;
-	padding-top: 100px;
-	padding-bottom: 50px;
-	height: 80%;
+	padding: 10px 10px;
+	/* padding-top: 100px; */
+	/* padding-bottom: 50px; */
+	height: 100%;
+	/* height: auto; */
 	/* display: flex;
   flex-direction: column;
   align-items: center; */
-	display: grid;
-	grid-template-columns: 1fr;
+	/* display: grid; */
+	display: flex;
+	align-items: flex-start;
+	/* justify-content: space-around; */
+	justify-content: center;
+
+	flex-direction: column;
+	/* margin: auto; */
+	/* padding: 220px 0; */
+	/* grid-template-columns: 1fr; */
 	/* justify-content: center; */
 	background: url(../img/About/AboutUs_Background_Web.svg);
 	background-size: cover;
-	background-position: left;
+	/* background-position: left; */
 }
 
 .row-content {
@@ -289,20 +300,23 @@ p {
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-around;
-	margin-top: -50px;
+	margin-bottom: 5px;
+	/* margin-bottom: 20px; */
+	/* margin-top: -50px; */
 }
 
 .right-col h3 {
 	color: #0162ff;
-	font-size: 22px !important;
+	font-size: 21px !important;
 	margin: 0;
 }
 
 .row-content .icon {
 	cursor: pointer;
-	min-height: 85px !important;
-	width: 85px !important;
-	margin-right: 20px;
+	height: 50px !important;
+	width: 50px !important;
+	margin-right: 22px;
+	margin-left: 10vmin;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -313,12 +327,12 @@ p {
 	width: auto;
 	/* height: 80%; */
 	height: auto;
-	margin-left: 7.5px;
+	/* margin-left: 7.5px; */
 	object-fit: cover;
 }
 
 .row-content p {
-	font-size: 22px !important;
+	font-size: 21px !important;
 	margin-top: -0.1px;
 	width: 91%;
 }
