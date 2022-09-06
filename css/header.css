@@ -132,7 +132,7 @@ header .ctn:hover {
 
 header {
 	width: 100vw;
-	height: 83vh;
+	height: 83vh !important;
 	/* background-image: url(../img/1.webp); */
 	background-image: url(../img/Header/BackgroundImage@3x.png);
 	cursor: pointer;
@@ -142,7 +142,7 @@ header {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	padding-bottom: 17vh;
+	padding-bottom: 17vh !important;
 }
 
 .header-content {
@@ -307,6 +307,10 @@ header {
 /* mobile device */
 
 @media only screen and (max-width: 1000px) {
+	header {
+		height: 60vh;
+		padding-bottom: 40vmin;
+	}
 	.navbar {
 		display: none;
 	}
@@ -321,6 +325,10 @@ header {
 	}
 }
 @media (max-width: 700px) {
+	/* header {
+		height: 83vh;
+		padding-bottom: 17vh;
+	} */
 	.navbar {
 		display: none;
 	}
