@@ -197,14 +197,14 @@
 		font-size: 13px;
 	}
 	.contact-container .inputs-information .personnel-information .first-col {
-		width: 50%;
+		width: 50% !important;
 		margin-right: 3px;
 	}
 	.contact-container .inputs-information .personnel-information .second-col {
-		width: 50%;
+		width: 50% !important;
 	}
 	.contact-container .inputs-information .helping-question {
-		width: 96%;
+		width: 96% !important;
 		/* margin: auto; */
 		margin-left: 2vmin;
 		align-items: center;

@@ -317,8 +317,8 @@ section {
 		font-size: 14px;
 	}
 	.question-container .answers .answer .icon {
-		width: 19px;
-		height: 19px;
+		width: 35px !important;
+		height: 35px !important;
 		font-size: 10px;
 	}
 }

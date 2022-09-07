@@ -13,7 +13,14 @@ p {
 	width: 7vmin;
 	height: 7vmin;
 	border-radius: 50%;
-	background: #03dee7;
+	background: linear-gradient(
+		to right,
+		#1175fd 0%,
+		5.263157933950424%,
+		#107cfb 10.526315867900848%,
+		55.263157933950424%,
+		#04d7e8 100%
+	);
 	color: #f7f8ff;
 	border: none;
 	cursor: pointer;
@@ -28,8 +35,8 @@ p {
 	margin: auto;
 }
 
-#btnScrollToTop:active {
-	background-color: #0ab9bf;
+#btnScrollToTop:hover {
+	background: rgb(87, 208, 235);
 }
 
 /* Start Process Section */
