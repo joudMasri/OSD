@@ -150,18 +150,18 @@
 		margin-bottom: 20px;
 	}
 	.contact-container .inputs-information .personnel-information .first-col {
-		flex-direction: column;
-		width: 100%;
-		margin: 0;
-		flex: auto;
+		/* flex-direction: column; */
+		width: 100% !important;
+		/* margin: 0; */
+		/* flex: auto; */
 	}
 
 	.contact-container .inputs-information .personnel-information .second-col {
-		flex-direction: column;
-		width: 100%;
-		margin: 0;
+		/* flex-direction: column; */
+		width: 100% !important;
+		/* margin: 0; */
 		margin-bottom: 10px;
-		flex: auto;
+		/* flex: auto; */
 	}
 }
 

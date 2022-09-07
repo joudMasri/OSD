@@ -99,12 +99,13 @@ section {
 }
 
 .service .head h3 {
-	width: 85%;
-	margin: 0;
+	/* width: 85%; */
+	/* margin: 0; */
 	/* font-size: 3vmin; */
 	/* font-size: 23px; */
 	font-size: 1.2rem;
 	font-weight: bolder;
+	margin-left: 7px;
 }
 
 .service .description {
@@ -198,7 +199,7 @@ section {
 	margin-bottom: 20px;
 	display: flex;
 	align-items: flex-start;
-	justify-content: space-around;
+	/* justify-content: space-around; */
 	width: 80%;
 	text-align: left;
 	font-size: 20px;
@@ -210,9 +211,13 @@ section {
 
 .question-container .answers .answer .icon {
 	margin-right: 2vmin;
-	width: 35px;
-	height: 35px;
-	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	/* border-radius: 50%;
 	box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.25);
 	display: flex;
 	justify-content: center;
@@ -220,11 +225,11 @@ section {
 	color: #03dee7;
 	cursor: pointer;
 	font-size: 20px;
-	margin-right: 15px;
+	margin-right: 15px; */
 }
-.question-container .answers .answer .icon i {
+/* .question-container .answers .answer .icon i {
 	padding-left: 1.75vmin;
-}
+} */
 
 .question-container .answers .answer .text {
 	flex: 1;
@@ -318,9 +323,10 @@ section {
 	}
 }
 
-/* @media (min-width: 1500px) {
+@media (min-width: 1500px) {
 	.service {
-		width: 75%;
-		height: 75%;
+		width: 60% !important;
+		height: 80% !important;
+		margin-bottom: 30px;
 	}
-} */
+}
