@@ -51,6 +51,7 @@ section {
 	/* font-size: 40px; */
 	font-size: 1.6rem;
 	margin: 0;
+	font-weight: 600;
 	/* font-weight: bold; */
 }
 
@@ -70,7 +71,7 @@ section {
 }
 
 .service {
-	padding: 2.5rem 1.5rem;
+	padding: 2rem 1.5rem;
 	cursor: pointer;
 	display: flex;
 	flex-direction: column;
@@ -84,7 +85,7 @@ section {
 	/* width: 46vmin; */
 	/* width: 310px; */
 	width: 75% !important;
-	height: 77% !important;
+	height: 75% !important;
 	margin: auto;
 	/* padding-bottom: 30px; */
 }

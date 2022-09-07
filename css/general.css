@@ -4,7 +4,8 @@
 
 body {
 	scroll-behavior: smooth;
-	font-family: Arial;
+	font-family: "Arial";
+	font-weight: "Regular";
 	overflow-x: hidden;
 	width: 100%;
 }
@@ -71,8 +72,9 @@ section {
 .montserrat {
 	/* font-family: "Montserrat" !important;
 	font-weight: bold; */
-	font: var(--unnamed-font-style-normal) normal
+	/* font: var(--unnamed-font-style-normal) normal
 		var(--unnamed-font-weight-normal) var(--unnamed-font-size-40) /
-		var(--unnamed-line-spacing-49) var(--unnamed-font-family-montserrat);
+		var(--unnamed-line-spacing-49) var(--unnamed-font-family-montserrat); */
 	font-size: 2rem !important;
+	font-weight: 600 !important;
 }
