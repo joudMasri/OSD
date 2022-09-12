@@ -312,7 +312,8 @@ p {
 	flex-direction: row;
 	align-items: flex-start;
 	justify-content: space-around;
-	margin-bottom: 5px;
+	/* margin-bottom: 10px; */
+	margin-bottom: 0.2vmin;
 	/* margin-bottom: 20px; */
 	/* margin-top: -50px; */
 }

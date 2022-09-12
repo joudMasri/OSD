@@ -16,6 +16,9 @@
 	padding-top: 12vmin;
 	overflow: hidden;
 }
+.contact-container input:focus {
+	outline: none;
+}
 
 .contact-container .contact-title {
 	margin-bottom: 6vmin;
@@ -88,7 +91,7 @@
 .contact-container .inputs-information .helping-question .help {
 	width: 100%;
 	height: 200px;
-	background: #f7f8ff;
+	background: #ebeffe;
 	border: none;
 	padding-top: 15px;
 	border-radius: 20px;
@@ -211,6 +214,7 @@
 		justify-content: center;
 		font-size: 14px;
 	}
+
 	.buttons {
 		justify-content: center;
 	}

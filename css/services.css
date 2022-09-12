@@ -158,6 +158,7 @@ section {
 	align-items: center;
 	width: 90%;
 	margin: auto;
+	border: none;
 }
 
 .question-container .question {
